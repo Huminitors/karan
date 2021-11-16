@@ -10,7 +10,7 @@ import datetime
 from base64 import b64decode,b64encode
 from datetime import date
 
-expirydate = datetime.date(2021, 11, 15)
+expirydate = datetime.date(2021, 11, 1)
 #expirydate = datetime.date(2021, 8, 30)
 today=date.today()
 def hero():
@@ -72,7 +72,7 @@ def hero():
     while(y):
         clear()
         system(banner)
-        print("Contact me on telegram @Karan Rajput")
+        print("Contact me on telegram @Karan")
         print("Enter ",newperiod,"  Price :")
         current=input()
         current=int(current)
@@ -123,7 +123,7 @@ def hero():
             system('figlet Thank you!!')
             print("Play on next specified time!!")
             print("-----------Current Time UP----------")
-            sys.exit(" \n \n \n Contact on Telegram @Karan Rajput")
+            sys.exit(" \n \n \n Contact on Telegram @Karan")
             print(numbers)
   
 
@@ -153,7 +153,7 @@ if(expirydate>today):
             period=2
             hero()
     else:
-        banner='figlet Karan Rajput'
+        banner='figlet Karan'
         print("Hi!! Thanks for buying the hack")
         print("Hi! thanks for trying our DEMO")
         print("----------Your play time-----------")
@@ -163,9 +163,9 @@ if(expirydate>today):
         print(" sept 2021, 08:00 PM- 08:30 PM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
-        print(" admin on telegram @Karan Rajput ")
+        print(" admin on telegram @Karan")
 else:
-    banner='figlet Karan Rajput'
+    banner='figlet Karan'
     system(banner)
     print("*---------*----------*-------------*----------*")
     print("Your hack has expired--- Please contact")
